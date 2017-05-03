@@ -13,5 +13,5 @@ group :development, :test do
 
   # XML parsing
   gem 'ox', '~> 2.4.0', platform: :ruby
-  gem 'nokogiri', '~> 1.6.1', platform: :jruby
+  gem 'nokogiri', '~> 1.7.1', platform: :jruby
 end
