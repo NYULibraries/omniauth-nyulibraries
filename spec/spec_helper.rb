@@ -1,6 +1,6 @@
 $:.unshift File.expand_path('..', __FILE__)
 $:.unshift File.expand_path('../../lib', __FILE__)
-if RUBY_VERSION >= '2.0.0'
+if RUBY_VERSION >= '2.0.0' && RUBY_PLATFORM != 'java'
   require 'coveralls'
   Coveralls.wear!
 end
