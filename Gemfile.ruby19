@@ -5,4 +5,4 @@ gem 'pry', group: :development
 
 # XML parsing
 gem 'ox', '~> 2.1.0', platform: :ruby
-gem 'nokogiri', '~> 1.6.1', platform: :jruby
+gem 'nokogiri', '~> 1.7.1', platform: :jruby
