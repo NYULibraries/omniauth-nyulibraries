@@ -9,6 +9,7 @@ rvm:
   # - jruby-19mode
   - rbx-2
 before_install:
+  - gem install bundler
   - gem update bundler
   - bundler --version
 matrix:
@@ -24,3 +25,4 @@ matrix:
 env:
   global:
     - NYULIBRARIES_APPLICATION_ID=app_id
+sudo: false
