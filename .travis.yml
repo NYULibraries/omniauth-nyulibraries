@@ -14,9 +14,8 @@ before_install:
   - bundler --version
 matrix:
   allow_failures:
-    - rvm:
-      - rbx-2
-      - 2.1.10
+    - rvm: rbx-2
+    - rvm: 2.1.10
   include:
   - rvm: 1.9.3
     gemfile: Gemfile.ruby19
