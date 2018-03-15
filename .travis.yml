@@ -1,12 +1,10 @@
 language: ruby
 rvm:
-  # - 1.9.3
   - 2.1.10
   - 2.2.9
   - 2.3.6
   - 2.4.3
   - 2.5.0
-  # - jruby-19mode
   - rbx-2
 before_install:
   - gem install bundler
@@ -16,13 +14,6 @@ matrix:
   allow_failures:
     - rvm: rbx-2
     - rvm: 2.1.10
-  include:
-  - rvm: 1.9.3
-    gemfile: Gemfile.ruby19
-    env: ISOLATED=true
-  - rvm: jruby-19mode
-    gemfile: Gemfile.ruby19
-    env: ISOLATED=true
 env:
   global:
     - NYULIBRARIES_APPLICATION_ID=app_id
