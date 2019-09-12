@@ -1,8 +1,7 @@
 # OmniAuth NYU Libraries
-[![Build Status](https://api.travis-ci.org/NYULibraries/omniauth-nyulibraries.png?branch=master)](https://travis-ci.org/NYULibraries/omniauth-nyulibraries)
-[![Dependency Status](https://gemnasium.com/NYULibraries/omniauth-nyulibraries.png)](https://gemnasium.com/NYULibraries/omniauth-nyulibraries)
-[![Code Climate](https://codeclimate.com/github/NYULibraries/omniauth-nyulibraries.png)](https://codeclimate.com/github/NYULibraries/omniauth-nyulibraries)
-[![Coverage Status](https://coveralls.io/repos/NYULibraries/omniauth-nyulibraries/badge.png?branch=master)](https://coveralls.io/r/NYULibraries/omniauth-nyulibraries)
+[![Build Status](https://travis-ci.org/NYULibraries/omniauth-nyulibraries.svg?branch=master)](https://travis-ci.org/NYULibraries/omniauth-nyulibraries)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5bd7ec644fe5f093ee64/maintainability)](https://codeclimate.com/github/NYULibraries/omniauth-nyulibraries/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/NYULibraries/omniauth-nyulibraries/badge.svg?branch=master)](https://coveralls.io/github/NYULibraries/omniauth-nyulibraries?branch=master)
 
 OmniAuth strategy for the NYU Libraries OAuth2 provider. Before installing in your application, be sure to have installed [OmniAuth](https://github.com/intridea/omniauth) and registered your application with [Login](https://github.com/NYULibraries/login/blob/feature/client_documentation/GETTING_STARTED.md).
 
